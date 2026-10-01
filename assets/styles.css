@@ -224,3 +224,29 @@ form .btn { width: 100%; margin-top: 6px; }
 /* Header spacing: keep brand and nav from touching */
 .brand { flex-shrink: 0; margin-right: 12px; }
 @media (min-width: 1241px) and (max-width: 1400px) { .nav ul { gap: 14px; } .nav a { font-size: .9rem; } }
+
+/* ---- Subpages ---- */
+.hero-sub { padding-top: 28px; }
+.breadcrumbs { font-size: .88rem; color: #b9cbd8; margin-bottom: 36px; }
+.breadcrumbs a { color: #fff; text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; color: #fff; }
+.prose h2 + p, .prose p { color: #354150; }
+.prose ul, .prose ol { padding-left: 1.2em; }
+.prose li { margin-bottom: 6px; }
+.container.prose { max-width: 900px; }
+.card-link { display: block; text-decoration: none; color: inherit; transition: transform .15s, border-color .15s; }
+.card-link:hover { transform: translateY(-3px); border-color: var(--accent); color: inherit; }
+.card-link h3 { color: var(--navy); }
+.card h3 a { color: inherit; text-decoration: none; }
+.card h3 a:hover { color: var(--accent-dark); }
+.checklist-3 { columns: 3; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.grid-4 .card { padding: 20px; }
+.grid-4 .card h3 { font-size: 1.02rem; }
+.hoods { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.hoods li { background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; font-size: .9rem; }
+.areas-links a { text-decoration: none; color: var(--ink); font-weight: 600; }
+.areas-links a:hover { color: var(--accent-dark); }
+.faq-group > details summary h3 { display: inline; font-size: 1.04rem; margin: 0; color: var(--navy); text-transform: none; letter-spacing: 0; }
+@media (max-width: 980px) { .checklist-3 { columns: 2; } .grid-4 { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .checklist-3 { columns: 1; } .grid-4 { grid-template-columns: 1fr 1fr; } .breadcrumbs { margin-bottom: 20px; } }
