@@ -1,0 +1,33 @@
+# roofinspectiondenver.com
+
+Static website for **Roof Inspection Denver**, a roof inspection company serving the greater Denver metro area. It has no build step and no dependencies. Upload the folder to any static host (Netlify, Cloudflare Pages, Vercel, GitHub Pages, or shared hosting).
+
+## Files
+| File | Purpose |
+|---|---|
+| `index.html` | Home page: hero + lead form, services, checklist, process, hail, real estate, reviews, service areas, 22-question FAQ |
+| `assets/styles.css` | All styles (responsive, mobile sticky call bar) |
+| `assets/favicon.svg`, `assets/hero-denver-roof.svg`, `assets/og-image.png` | Logo/icon, hero illustration, social share image |
+| `thank-you.html`, `privacy.html`, `404.html` | Supporting pages |
+| `robots.txt`, `sitemap.xml` | Crawl directives and sitemap |
+
+## SEO built in
+- Primary keyword "roof inspection Denver" appears in the title, H1, meta description, first paragraph, H2s, and FAQ title.
+- Semantic/NLP coverage: hail damage, storm/wind, real estate, roof certification, insurance claim, Class 4 shingles, ice dams, Front Range, Hail Alley, metro cities, counties, and Denver neighborhoods.
+- One H1, then H2 per section, H3 for sub-topics, and H4 for FAQ questions.
+- JSON-LD: `RoofingContractor`/`LocalBusiness` (areaServed, hours, services, aggregateRating), `WebSite`, `FAQPage` (generated from the on-page FAQ, so they match), and `BreadcrumbList`.
+- Canonical, Open Graph, geo meta tags, robots.txt, and sitemap.xml.
+
+## ⚠️ Before launch: replace placeholders
+1. **Phone number.** `(303) 555-0142` / `+13035550142` is a placeholder. Find and replace it everywhere, including the JSON-LD `telephone` field.
+2. **Email.** Confirm `info@roofinspectiondenver.com`.
+3. **Address and hours.** Add the street address and ZIP to the footer and the JSON-LD `address` if you have a public office. NAP (name, address, phone) must match your Google Business Profile exactly. Confirm the business hours.
+4. **Testimonials.** The three review cards are **samples**. Replace them with real excerpts from your Google reviews. Also point the "Read Our Google Reviews" button at your actual Google Business Profile reviews URL.
+5. **Form.** The form uses Netlify Forms (`data-netlify="true"`). On another host, point `action` at your form handler (Formspree, CRM webhook, etc.).
+6. Verify any claims you add (licenses, insurance, certifications, guarantees) before publishing.
+
+## After launch
+- Submit `sitemap.xml` in Google Search Console and validate schema with the Rich Results Test.
+- Link the site from your Google Business Profile. Reviews and GBP signals drive most local "roof inspection Denver" map-pack rankings.
+- Note: Google does not show review stars for a business's own `aggregateRating` markup on its site. The markup is still valid, but the stars come from your GBP.
+- Growth path: add dedicated city pages (e.g. `/roof-inspection-aurora/`) and service pages (e.g. `/hail-damage-roof-inspection/`) using the same layout, then add them to the sitemap.
