@@ -8,7 +8,8 @@
   <link rel="canonical" href="https://roofinspectiondenver.com/service-areas/">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="geo.region" content="US-CO">
-  <meta name="theme-color" content="#0f2a3f">
+  <meta name="geo.placename" content="Denver">
+  <meta name="theme-color" content="#0c2340">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Roof Inspection Denver">
   <meta property="og:title" content="Roof Inspection Service Areas | Denver Metro Cities We Serve">
@@ -18,7 +19,11 @@
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/jakarta.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="/assets/img/skyline-1600.webp" imagesrcset="/assets/img/skyline-800.webp 800w, /assets/img/skyline-1600.webp 1600w" imagesizes="100vw">
   <link rel="stylesheet" href="/assets/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,7 +37,9 @@
       "name": "Roof Inspection Denver",
       "url": "https://roofinspectiondenver.com/",
       "telephone": "+1-303-555-0142",
+      "email": "info@roofinspectiondenver.com",
       "image": "https://roofinspectiondenver.com/assets/og-image.png",
+      "logo": "https://roofinspectiondenver.com/assets/favicon.svg",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
@@ -267,23 +274,13 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-<!-- HEADER:START -->
-  <div class="topbar">
-    <div class="container">
-      <span><span class="stars" aria-hidden="true">★★★★★</span> 4.9 rating from 370 Google reviews</span>
-      <span class="hide-sm">Serving Denver &amp; the entire Front Range metro · <a href="tel:+13035550142">(303) 555-0142</a></span>
-    </div>
-  </div>
-
   <header class="site-header">
     <div class="container">
       <a class="brand" href="/" aria-label="Roof Inspection Denver home">
-        <img src="/assets/favicon.svg" alt="" width="36" height="36">
-        Roof Inspection Denver
+        <img src="/assets/favicon.svg" alt="" width="40" height="40">
+        <span>Roof Inspection Denver<small>Denver Metro Roof Inspections</small></span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M4 5h16" /><path d="M4 12h16" /><path d="M4 19h16" /></svg></button>
       <nav class="nav" id="site-nav" aria-label="Main">
         <ul>
           <li><a href="/services/">Inspections</a></li>
@@ -292,35 +289,36 @@
           <li><a href="/service-areas/">Service Areas</a></li>
           <li><a href="/#reviews">Reviews</a></li>
           <li><a href="/#faq">FAQ</a></li>
-          <li><a class="btn btn-primary" href="#book">Book an Inspection</a></li>
+          <li><a class="nav-phone" href="tel:+13035550142"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg> (303) 555-0142</a></li>
+          <li><a class="btn btn-primary" href="#book">Book Inspection</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <!-- HEADER:END -->
+
   <main id="main">
     <section class="hero hero-sub" aria-labelledby="hero-title">
+      <div class="hero-bg"><img src="/assets/img/skyline-1600.webp" srcset="/assets/img/skyline-800.webp 800w, /assets/img/skyline-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Denver skyline with the Rocky Mountains in the background" fetchpriority="high" decoding="async"></div>
       <div class="container">
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">›</span> <span aria-current="page">Service Areas</span></nav>
-      </div>
-      <div class="container hero-grid">
-        <div>
-          <span class="eyebrow" style="color:#f7b48a">Service Areas</span>
-          <h1 id="hero-title">Roof Inspections Across the Greater Denver Metro</h1>
-          <p class="lead">Based in Denver, we inspect roofs in every city and community across Denver, Adams, Arapahoe, Jefferson, Douglas, Broomfield and Boulder counties.</p>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="#book">Schedule an Inspection</a>
-            <a class="btn btn-ghost" href="tel:+13035550142">Call (303) 555-0142</a>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; <span aria-current="page">Service Areas</span></nav>
+        <div class="hero-grid">
+          <div>
+            
+            <h1 id="hero-title">Roof Inspections Across the Greater Denver Metro</h1>
+            <p class="lead">Based in Denver, we inspect roofs in every city and community across Denver, Adams, Arapahoe, Jefferson, Douglas, Broomfield and Boulder counties.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#book">Schedule an Inspection <svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
+              <a class="btn btn-light" href="tel:+13035550142"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg> (303) 555-0142</a>
+            </div>
+            <div class="hero-proof">
+              <div class="g-rating"><b>4.9</b><div><span class="stars" aria-hidden="true"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg></span><span class="txt">370 Google reviews</span></div></div>
+              <ul class="hero-ticks"><li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><path d="m16 9-5.5 5.5L8 12" /></svg> Photo-documented report</li><li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><path d="m16 9-5.5 5.5L8 12" /></svg> Hail &amp; storm experts</li><li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><path d="m16 9-5.5 5.5L8 12" /></svg> Every Denver metro city</li></ul>
+            </div>
           </div>
-          <div class="rating-badge">
-            <span class="stars" aria-hidden="true">★★★★★</span>
-            <span><strong>4.9 / 5</strong> from <strong>370</strong> Google reviews</span>
-          </div>
-        </div>
 
         <div class="quote-card" id="book">
-          <h2>Request a Roof Inspection</h2>
-          <p class="small">We typically respond within one business hour and can often inspect within 24–48 hours.</p>
+          <h2>Book your roof inspection</h2>
+          <p class="small">Reply within one business hour · Most inspections in 24–48 hours</p>
           <form name="inspection-request" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="company">
             <input type="hidden" name="form-name" value="inspection-request">
             <p class="hidden"><label>Leave blank <input name="company"></label></p>
@@ -330,234 +328,216 @@
             </div>
             <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
             <div class="field"><label for="f-address">Property address or city</label><input id="f-address" name="address" autocomplete="street-address" placeholder="e.g. Lakewood, CO" required></div>
-            <div class="field"><label for="f-type">Inspection type</label><select id="f-type" name="inspection_type"><option>Hail or storm damage</option><option>Buying / selling a home</option><option>Roof certification</option><option>Insurance claim documentation</option><option>Leak or moisture concern</option><option>General roof condition check</option><option>Commercial / multi-family</option></select></div>
-            <button class="btn btn-primary" type="submit">Get My Inspection Scheduled</button>
+            <div class="field"><label for="f-type">What do you need?</label><select id="f-type" name="inspection_type"><option>Hail or storm damage</option><option>Buying / selling a home</option><option>Roof certification</option><option>Insurance claim documentation</option><option>Leak or moisture concern</option><option>General roof condition check</option><option>Commercial / multi-family</option></select></div>
+            <button class="btn btn-primary" type="submit">Request My Inspection <svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></button>
           </form>
+          <p class="assure"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg> No obligation · No sales pressure</p>
+        </div>
         </div>
       </div>
     </section>
+
+    <div class="stats-wrap"><div class="container"><div class="stats"><div><span class="ic"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg></span><p style="margin:0"><strong>4.9 / 5</strong><span>Average rating on Google</span></p></div><div><span class="ic"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><path d="M16 3.128a4 4 0 0 1 0 7.744" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><circle cx="9" cy="7" r="4" /></svg></span><p style="margin:0"><strong>370+</strong><span>Verified Google reviews</span></p></div><div><span class="ic"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></svg></span><p style="margin:0"><strong>30+</strong><span>Denver metro cities served</span></p></div><div><span class="ic"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></svg></span><p style="margin:0"><strong>24–48 hr</strong><span>Typical inspection turnaround</span></p></div></div></div></div>
 
     <section class="section" aria-labelledby="cities-title">
       <div class="container">
         <div class="section-head">
-          <h2 id="cities-title">Cities We Serve</h2>
-          <p>Select your city for local roofing conditions, neighborhoods and FAQs. If you're anywhere in the Denver metro and don't see your community, <a href="#book">just ask</a> — we serve it.</p>
+          <span class="eyebrow">Cities we serve</span>
+          <h2 id="cities-title">Find Roof Inspections in Your City</h2>
+          <p>Select your city for local roofing conditions, neighborhoods and FAQs. If you're anywhere in the Denver metro and don't see your community, <a href="#book">just ask</a>. We serve it.</p>
         </div>
         <div class="grid-4">
-          <a class="card card-link" href="/roof-inspection-arvada/">
-            <h3>Roof Inspection Arvada</h3>
-            <p>Jefferson and Adams Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-arvada/">
+            <div><h3>Roof Inspection Arvada</h3><span>Jefferson and Adams Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-aurora/">
-            <h3>Roof Inspection Aurora</h3>
-            <p>Arapahoe, Adams and Douglas Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-aurora/">
+            <div><h3>Roof Inspection Aurora</h3><span>Arapahoe, Adams and Douglas Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-boulder/">
-            <h3>Roof Inspection Boulder</h3>
-            <p>Boulder County</p>
+          <a class="card card-link area-card" href="/roof-inspection-boulder/">
+            <div><h3>Roof Inspection Boulder</h3><span>Boulder County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-brighton/">
-            <h3>Roof Inspection Brighton</h3>
-            <p>Adams and Weld Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-brighton/">
+            <div><h3>Roof Inspection Brighton</h3><span>Adams and Weld Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-broomfield/">
-            <h3>Roof Inspection Broomfield</h3>
-            <p>City and County of Broomfield</p>
+          <a class="card card-link area-card" href="/roof-inspection-broomfield/">
+            <div><h3>Roof Inspection Broomfield</h3><span>City and County of Broomfield</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-castle-pines/">
-            <h3>Roof Inspection Castle Pines</h3>
-            <p>Douglas County</p>
+          <a class="card card-link area-card" href="/roof-inspection-castle-pines/">
+            <div><h3>Roof Inspection Castle Pines</h3><span>Douglas County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-castle-rock/">
-            <h3>Roof Inspection Castle Rock</h3>
-            <p>Douglas County</p>
+          <a class="card card-link area-card" href="/roof-inspection-castle-rock/">
+            <div><h3>Roof Inspection Castle Rock</h3><span>Douglas County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-centennial/">
-            <h3>Roof Inspection Centennial</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-centennial/">
+            <div><h3>Roof Inspection Centennial</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-cherry-hills-village/">
-            <h3>Roof Inspection Cherry Hills Village</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-cherry-hills-village/">
+            <div><h3>Roof Inspection Cherry Hills Village</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-commerce-city/">
-            <h3>Roof Inspection Commerce City</h3>
-            <p>Adams County</p>
+          <a class="card card-link area-card" href="/roof-inspection-commerce-city/">
+            <div><h3>Roof Inspection Commerce City</h3><span>Adams County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/">
-            <h3>Roof Inspection Denver</h3>
-            <p>Denver County</p>
+          <a class="card card-link area-card" href="/">
+            <div><h3>Roof Inspection Denver</h3><span>Denver County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-edgewater/">
-            <h3>Roof Inspection Edgewater</h3>
-            <p>Jefferson County</p>
+          <a class="card card-link area-card" href="/roof-inspection-edgewater/">
+            <div><h3>Roof Inspection Edgewater</h3><span>Jefferson County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-englewood/">
-            <h3>Roof Inspection Englewood</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-englewood/">
+            <div><h3>Roof Inspection Englewood</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-erie/">
-            <h3>Roof Inspection Erie</h3>
-            <p>Boulder and Weld Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-erie/">
+            <div><h3>Roof Inspection Erie</h3><span>Boulder and Weld Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-federal-heights/">
-            <h3>Roof Inspection Federal Heights</h3>
-            <p>Adams County</p>
+          <a class="card card-link area-card" href="/roof-inspection-federal-heights/">
+            <div><h3>Roof Inspection Federal Heights</h3><span>Adams County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-glendale/">
-            <h3>Roof Inspection Glendale</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-glendale/">
+            <div><h3>Roof Inspection Glendale</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-golden/">
-            <h3>Roof Inspection Golden</h3>
-            <p>Jefferson County</p>
+          <a class="card card-link area-card" href="/roof-inspection-golden/">
+            <div><h3>Roof Inspection Golden</h3><span>Jefferson County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-greenwood-village/">
-            <h3>Roof Inspection Greenwood Village</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-greenwood-village/">
+            <div><h3>Roof Inspection Greenwood Village</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-highlands-ranch/">
-            <h3>Roof Inspection Highlands Ranch</h3>
-            <p>Douglas County</p>
+          <a class="card card-link area-card" href="/roof-inspection-highlands-ranch/">
+            <div><h3>Roof Inspection Highlands Ranch</h3><span>Douglas County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-ken-caryl/">
-            <h3>Roof Inspection Ken Caryl</h3>
-            <p>Jefferson County</p>
+          <a class="card card-link area-card" href="/roof-inspection-ken-caryl/">
+            <div><h3>Roof Inspection Ken Caryl</h3><span>Jefferson County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-lafayette/">
-            <h3>Roof Inspection Lafayette</h3>
-            <p>Boulder County</p>
+          <a class="card card-link area-card" href="/roof-inspection-lafayette/">
+            <div><h3>Roof Inspection Lafayette</h3><span>Boulder County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-lakewood/">
-            <h3>Roof Inspection Lakewood</h3>
-            <p>Jefferson County</p>
+          <a class="card card-link area-card" href="/roof-inspection-lakewood/">
+            <div><h3>Roof Inspection Lakewood</h3><span>Jefferson County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-littleton/">
-            <h3>Roof Inspection Littleton</h3>
-            <p>Arapahoe, Jefferson and Douglas Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-littleton/">
+            <div><h3>Roof Inspection Littleton</h3><span>Arapahoe, Jefferson and Douglas Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-lone-tree/">
-            <h3>Roof Inspection Lone Tree</h3>
-            <p>Douglas County</p>
+          <a class="card card-link area-card" href="/roof-inspection-lone-tree/">
+            <div><h3>Roof Inspection Lone Tree</h3><span>Douglas County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-louisville/">
-            <h3>Roof Inspection Louisville</h3>
-            <p>Boulder County</p>
+          <a class="card card-link area-card" href="/roof-inspection-louisville/">
+            <div><h3>Roof Inspection Louisville</h3><span>Boulder County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-northglenn/">
-            <h3>Roof Inspection Northglenn</h3>
-            <p>Adams County</p>
+          <a class="card card-link area-card" href="/roof-inspection-northglenn/">
+            <div><h3>Roof Inspection Northglenn</h3><span>Adams County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-parker/">
-            <h3>Roof Inspection Parker</h3>
-            <p>Douglas County</p>
+          <a class="card card-link area-card" href="/roof-inspection-parker/">
+            <div><h3>Roof Inspection Parker</h3><span>Douglas County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-sheridan/">
-            <h3>Roof Inspection Sheridan</h3>
-            <p>Arapahoe County</p>
+          <a class="card card-link area-card" href="/roof-inspection-sheridan/">
+            <div><h3>Roof Inspection Sheridan</h3><span>Arapahoe County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-superior/">
-            <h3>Roof Inspection Superior</h3>
-            <p>Boulder and Jefferson Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-superior/">
+            <div><h3>Roof Inspection Superior</h3><span>Boulder and Jefferson Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-thornton/">
-            <h3>Roof Inspection Thornton</h3>
-            <p>Adams County</p>
+          <a class="card card-link area-card" href="/roof-inspection-thornton/">
+            <div><h3>Roof Inspection Thornton</h3><span>Adams County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-westminster/">
-            <h3>Roof Inspection Westminster</h3>
-            <p>Adams and Jefferson Counties</p>
+          <a class="card card-link area-card" href="/roof-inspection-westminster/">
+            <div><h3>Roof Inspection Westminster</h3><span>Adams and Jefferson Counties</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
-          <a class="card card-link" href="/roof-inspection-wheat-ridge/">
-            <h3>Roof Inspection Wheat Ridge</h3>
-            <p>Jefferson County</p>
+          <a class="card card-link area-card" href="/roof-inspection-wheat-ridge/">
+            <div><h3>Roof Inspection Wheat Ridge</h3><span>Jefferson County</span></div><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
           </a>
         </div>
       </div>
     </section>
 
-    <section class="cta-band" aria-labelledby="cta-title">
+    <section class="cta" aria-labelledby="cta-title">
       <div class="container">
-        <div>
-          <h2 id="cta-title">Ready for an Honest Answer About Your Roof?</h2>
-          <p style="margin:0">Book a roof inspection in the Denver metro — most appointments within 24–48 hours.</p>
-        </div>
-        <div style="display:flex; gap:12px; flex-wrap:wrap">
-          <a class="btn btn-primary" href="#book">Schedule an Inspection</a>
-          <a class="btn btn-ghost" href="tel:+13035550142">(303) 555-0142</a>
+        <div class="cta-box">
+          <div class="band-bg"><img src="/assets/img/house-dusk-1600.webp" srcset="/assets/img/house-dusk-800.webp 800w, /assets/img/house-dusk-1600.webp 1600w" sizes="(max-width: 1240px) 100vw, 1240px" width="1600" height="1067" alt="Modern home exterior and roofline at dusk" loading="lazy" decoding="async"></div>
+          <div>
+            <h2 id="cta-title">Get an Honest Answer About Your Roof</h2>
+            <p>Book a roof inspection in the Denver metro. Most appointments within 24–48 hours, with a photo report the same day.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="#book">Schedule Inspection <svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
+            <a class="btn btn-light" href="tel:+13035550142"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg> (303) 555-0142</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-<!-- FOOTER:START -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h2>Roof Inspection Denver</h2>
+          <a class="brand" href="/" aria-label="Roof Inspection Denver home">
+        <img src="/assets/favicon.svg" alt="" width="40" height="40">
+        <span>Roof Inspection Denver<small>Denver Metro Roof Inspections</small></span>
+      </a>
           <p>Professional, unbiased roof inspections for homeowners, buyers, sellers, agents and property managers across the greater Denver, Colorado metro area.</p>
-          <p><span class="stars" aria-hidden="true">★★★★★</span> 4.9 from 370 Google reviews</p>
+          <p style="display:flex;align-items:center;gap:10px"><span class="stars" aria-hidden="true"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg></span> <span>4.9 from 370 Google reviews</span></p>
         </div>
         <div>
-          <h3>Inspections</h3>
+          <h2>Inspections</h2>
           <ul>
-            <li><a href="/residential-roof-inspection/">Residential Roof Inspection</a></li>
             <li><a href="/hail-damage-roof-inspection/">Hail Damage Roof Inspection</a></li>
-            <li><a href="/storm-damage-roof-inspection/">Storm &amp; Wind Damage Inspection</a></li>
             <li><a href="/real-estate-roof-inspection/">Real Estate Roof Inspection</a></li>
-            <li><a href="/roof-certification/">Roof Certification</a></li>
+            <li><a href="/residential-roof-inspection/">Residential Roof Inspection</a></li>
             <li><a href="/insurance-claim-roof-inspection/">Insurance Claim Roof Inspection</a></li>
+            <li><a href="/roof-certification/">Roof Certification</a></li>
+            <li><a href="/commercial-roof-inspection/">Commercial Roof Inspection</a></li>
             <li><a href="/services/">All inspection services →</a></li>
           </ul>
         </div>
         <div>
-          <h3>Service Areas</h3>
+          <h2>Service Areas</h2>
           <ul>
-            <li><a href="/roof-inspection-aurora/">Aurora</a></li>
-            <li><a href="/roof-inspection-lakewood/">Lakewood</a></li>
-            <li><a href="/roof-inspection-arvada/">Arvada</a></li>
-            <li><a href="/roof-inspection-westminster/">Westminster</a></li>
-            <li><a href="/roof-inspection-thornton/">Thornton</a></li>
-            <li><a href="/roof-inspection-centennial/">Centennial</a></li>
+            <li><a href="/roof-inspection-aurora/">Roof Inspection Aurora</a></li>
+            <li><a href="/roof-inspection-lakewood/">Roof Inspection Lakewood</a></li>
+            <li><a href="/roof-inspection-arvada/">Roof Inspection Arvada</a></li>
+            <li><a href="/roof-inspection-westminster/">Roof Inspection Westminster</a></li>
+            <li><a href="/roof-inspection-thornton/">Roof Inspection Thornton</a></li>
+            <li><a href="/roof-inspection-centennial/">Roof Inspection Centennial</a></li>
             <li><a href="/service-areas/">All service areas →</a></li>
           </ul>
         </div>
         <div>
-          <h3>Contact</h3>
+          <h2>Contact</h2>
           <address style="font-style:normal">
-            <ul>
-              <li>Denver, CO</li>
-              <li><a href="tel:+13035550142">(303) 555-0142</a></li>
-              <li><a href="mailto:info@roofinspectiondenver.com">info@roofinspectiondenver.com</a></li>
-              <li>Mon–Fri 7am–6pm · Sat 8am–2pm</li>
+            <ul class="contact">
+              <li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></svg> <span>Denver, CO — serving the entire metro</span></li>
+              <li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg> <a href="tel:+13035550142">(303) 555-0142</a></li>
+              <li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect x="2" y="4" width="20" height="16" rx="2" /></svg> <a href="mailto:info@roofinspectiondenver.com">info@roofinspectiondenver.com</a></li>
+              <li><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></svg> <span>Mon–Fri 7am–6pm · Sat 8am–2pm</span></li>
             </ul>
           </address>
         </div>
       </div>
       <div class="footer-bottom">
         <span>© <span id="year">2026</span> Roof Inspection Denver · roofinspectiondenver.com</span>
-        <span><a href="/privacy.html">Privacy Policy</a></span>
+        <span><a href="/privacy.html">Privacy Policy</a> · <a href="/sitemap.xml">Sitemap</a></span>
       </div>
     </div>
   </footer>
 
-  <a class="mobile-call" href="tel:+13035550142">📞 Call for a Roof Inspection</a>
+  <a class="mobile-call" href="tel:+13035550142"><svg class="i" aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg> Call for a Roof Inspection</a>
 
   <script>
     (function () {
-      var btn = document.querySelector('.nav-toggle');
-      var nav = document.getElementById('site-nav');
+      var btn = document.querySelector('.nav-toggle'), nav = document.getElementById('site-nav');
       btn.addEventListener('click', function () {
         var open = nav.classList.toggle('open');
         btn.setAttribute('aria-expanded', open);
       });
       nav.addEventListener('click', function (e) {
-        if (e.target.tagName === 'A') { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+        if (e.target.closest('a')) { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
       });
       document.getElementById('year').textContent = new Date().getFullYear();
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      els.forEach(function (el) { io.observe(el); });
     })();
   </script>
-  <!-- FOOTER:END -->
 </body>
 </html>
